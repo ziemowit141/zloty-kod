@@ -15,9 +15,9 @@ protected:
     Color tint;
     std::string brand;
 
+    Vehicle();
     Vehicle(int weigh,int num, int year,Color color, std::string& brand );
-    void set_values();
-
+    ~Vehicle();
 
 };
 #endif
